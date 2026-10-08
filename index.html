@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Battery Full Alarm</title>
+<meta name="description" content="Privacy policy for the Battery Full Alarm Android app by Weaver Sol.">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1a1a; --muted: #5f6368; --accent: #16a34a;
+    --line: #e5e7eb; --card: #f8fafc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111418; --fg: #e8eaed; --muted: #9aa0a6; --accent: #22c55e;
+            --line: #2a2f36; --card: #181c22; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 1.25rem; margin: 36px 0 8px; padding-top: 12px; border-top: 1px solid var(--line); }
+  p, li { max-width: 70ch; }
+  .meta { color: var(--muted); margin-bottom: 24px; }
+  .summary { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; }
+  .summary ul { margin: 8px 0 0; padding-left: 20px; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  a { color: var(--accent); }
+  code { font-family: ui-monospace, Consolas, monospace; font-size: 0.95em; }
+  @media (max-width: 600px) { table, thead, tbody, tr, th, td { display: block; }
+    thead { display: none; } td { border: 0; padding: 4px 0; }
+    tr { border-bottom: 1px solid var(--line); padding: 8px 0; }
+    td::before { content: attr(data-label); display: block; color: var(--muted); font-size: 0.85rem; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Battery Full Alarm for Android, published by Weaver Sol.<br>
+  Effective date: 8 October 2026.</p>
+
+  <div class="summary">
+    <strong>In short</strong>
+    <ul>
+      <li>The app has no account and no server. Your settings, battery readings and charging history stay on your phone.</li>
+      <li>The free version shows ads from Google AdMob, which uses your advertising ID.</li>
+      <li>If you buy Pro, Google Play handles the payment and RevenueCat records the purchase under an anonymous ID so it can be restored.</li>
+      <li>We never sell your data and we do not collect names, emails, contacts, photos, files or precise location.</li>
+    </ul>
+  </div>
+
+  <h2>1. What the app does</h2>
+  <p>Battery Full Alarm plays an alarm when your phone's battery reaches a charge level you choose. To do this it watches the battery level that Android reports, which requires a small foreground service and a persistent notification while the alarm is switched on.</p>
+
+  <h2>2. Information that stays on your device</h2>
+  <p>The following is processed and stored only on your phone, in the app's private storage, and is deleted when you uninstall the app:</p>
+  <ul>
+    <li>Your settings: target level, alarm sound, volume, quiet hours, theme, language, alarm message and similar preferences.</li>
+    <li>Battery readings: level, charging state, charger type, temperature, voltage and health as reported by Android.</li>
+    <li>Charging history: the start and end of each charging session and the level over time, used for the History tab and the optional weekly summary. You can choose how long it is kept (30, 90 or 180 days, or forever) in Settings.</li>
+    <li>Counters used to decide when to ask for a Play Store review.</li>
+  </ul>
+  <p>None of this is transmitted to us or to anyone else. The app makes no network requests of its own.</p>
+
+  <h2>3. Advertising (free version only)</h2>
+  <p>The free version shows a banner on the home screen and an occasional full-screen ad after you change settings. Ads are served by <strong>Google AdMob</strong>. The AdMob SDK may collect:</p>
+  <ul>
+    <li>Your Android advertising ID, which you can reset or delete in Android Settings &gt; Privacy &gt; Ads.</li>
+    <li>Approximate location derived from your IP address.</li>
+    <li>Ad interaction data such as impressions and clicks, and standard diagnostics such as crash and performance data.</li>
+  </ul>
+  <p>In the European Economic Area, the United Kingdom and Switzerland the app shows Google's consent form before loading ads, and you can change your choice from the app's Settings screen. Ads are never shown on the alarm screen, in notifications, on the home-screen widget or on the live wallpaper. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites">how Google uses data from apps</a>.</p>
+  <p>If you choose to watch a rewarded ad to unlock a charging animation, that ad is shown only after you tap the unlock button.</p>
+
+  <h2>4. Purchases</h2>
+  <p>Pro is a one-time purchase that removes ads and unlocks all animations and themes. Payment is processed by <strong>Google Play</strong>; we never see your payment details. To verify the purchase and restore it after a reinstall, the app uses <strong>RevenueCat</strong>, which stores:</p>
+  <ul>
+    <li>An anonymous app user ID generated on your device.</li>
+    <li>The purchase record from Google Play (product, date and status).</li>
+  </ul>
+  <p>RevenueCat does not receive your name, email or payment details. See the <a href="https://www.revenuecat.com/privacy">RevenueCat Privacy Policy</a>. Buying Pro, or owning the earlier "Remove ads" purchase, stops all ad-related data collection.</p>
+
+  <h2>5. Permissions</h2>
+  <table>
+    <thead><tr><th>Permission</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td data-label="Permission">Notifications</td><td data-label="Why">The alarm, the monitoring notification and the optional weekly summary.</td></tr>
+      <tr><td data-label="Permission">Foreground service (special use)</td><td data-label="Why">Keeps watching the battery level while the alarm is on, even with the screen off.</td></tr>
+      <tr><td data-label="Permission">Vibrate</td><td data-label="Why">Vibration with the alarm, if you enable it.</td></tr>
+      <tr><td data-label="Permission">Run at startup</td><td data-label="Why">Restarts the monitor after a reboot when the alarm is enabled.</td></tr>
+      <tr><td data-label="Permission">Internet</td><td data-label="Why">Used only by the ads and purchase SDKs described above.</td></tr>
+      <tr><td data-label="Permission">Live wallpaper</td><td data-label="Why">Only if you set the charging animation as your wallpaper.</td></tr>
+    </tbody>
+  </table>
+  <p>The app does not request location, contacts, storage, camera, microphone, call or SMS permissions.</p>
+
+  <h2>6. Children</h2>
+  <p>The app is not directed at children under 13 and we do not knowingly collect personal information from them.</p>
+
+  <h2>7. Data retention and deletion</h2>
+  <p>Everything the app stores on your device is deleted when you uninstall it, or you can clear the app's storage from Android Settings. Ad data is held by Google under its own policies; you can reset or delete your advertising ID at any time. Purchase records are kept by Google Play and RevenueCat for as long as needed to honour your purchase. To ask for the deletion of a RevenueCat record, contact us with your purchase date and we will submit the request.</p>
+
+  <h2>8. Security</h2>
+  <p>All communication by the bundled SDKs uses encrypted connections (HTTPS). Data stored on your device is in the app's private storage, which other apps cannot read.</p>
+
+  <h2>9. Changes to this policy</h2>
+  <p>If we change this policy we will update the effective date above and, for significant changes, mention it in the app's release notes.</p>
+
+  <h2>10. Contact</h2>
+  <p>Weaver Sol<br>Email: <a href="mailto:admin@weaversol.com">admin@weaversol.com</a></p>
+</main>
+</body>
+</html>
